@@ -43,7 +43,7 @@ main .techs .cards_container .card {
     margin-right: 0.9em;
     margin-left: 0.9em;
     cursor: pointer;
-    
+        
     display: flex;
     align-items: center;
     justify-content: center;
