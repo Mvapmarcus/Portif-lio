@@ -37,6 +37,7 @@
     </header>
     <main>
         <section class="main-content">
+
             <article class="text">
                 <h2>Sobre mim</h2>
                 <p>
@@ -46,8 +47,8 @@
                     mais conhecimento dentro da área de programação.
                     Estou sempre em busca de novos desafios e mais conhecimento.
                 </p>
-
             </article>
+
              <asside class="techs">
                 <h2>Tecnologias</h2>
                 <div class="cards_container">
@@ -67,7 +68,19 @@
                         <img src="./IMG/Techs/react.png" alt="logo do REACT">
                     </div>
                 </div>
-            </asside>
+             </asside>
+
+             <box sound>
+                <button id="playSound">Tocar Som</button>
+                <audio id="audio" src="./sound/button-pressed-38129.mp3"></audio>
+
+                <script>
+                    document.getElementById('playSound').addEventListener('click', function() {
+                        document.getElementById('audio').play();
+                    });
+                </script>                
+             </box>  
+
         </section>
 
         <figure>
